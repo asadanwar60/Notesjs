@@ -19,7 +19,7 @@
   </head>
   <body>
     <!--navbar-->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-secondary bg-grdaient">
       <div class="container">
         <a class="navbar-brand" href="#">Navbar</a>
         <button
@@ -65,7 +65,7 @@
               type="text"
               placeholder="Search"
             />
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            <button class="btn btn-light my-2 my-sm-0" type="submit">
               Search
             </button>
           </form>
@@ -73,13 +73,87 @@
       </div>
     </nav>
 
-    <div class="container">
-     <div class="mb-3">
-       <label for="" class="form-label">Enter you Notes here</label>
-       <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="Enter you Notes here">
-       <small id="helpId" class="form-text text-muted">Help text</small>
-     </div>
-    </div>
+    
+      <div class="container border border-1 border-secondary p-5 mt-5">
+        <h5 class="text-center mb-5">Welcome to Magic Notes</h5>
+        <input
+          type="text"
+          class="form-control mb-3"
+          name=""
+          id="addTxt"
+          aria-describedby="helpId"
+          placeholder="Enter you Notes here"
+        />
+        <button id="addBtn" class="btn btn-secondary">Add Note</button>
+      </div>
+    
+    <div class="container mt-5" id="notes">
+      <!-- <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Note</h5>
+              <p class="card-text">
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+              <a href="#" class="btn btn-secondary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Note</h5>
+              <p class="card-text">
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+              <a href="#" class="btn btn-secondary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Note</h5>
+              <p class="card-text">
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+              <a href="#" class="btn btn-secondary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Note</h5>
+              <p class="card-text">
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+              <a href="#" class="btn btn-secondary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Note</h5>
+              <p class="card-text">
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+              <a href="#" class="btn btn-secondary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div> -->
+  </div>
+
+    <!--Main.js-->
+    <script src="main.js"></script>
 
     <!-- Bootstrap JavaScript Libraries -->
     <script
